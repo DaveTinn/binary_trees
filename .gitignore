@@ -2,6 +2,10 @@
 
 0-node
 1-left
+2-left
+3-del
+4-leaf
+5-root
 0-main.c
 1-main.c
 2-main.c
