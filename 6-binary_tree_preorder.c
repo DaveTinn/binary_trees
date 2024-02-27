@@ -12,7 +12,10 @@ void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 	{
 		return;
 	}
+	/*Calls function to procces the current node*/
 	func(tree->n);
+	/*traverse the left sybtree recursively*/
 	binary_tree_preorder(tree->left, func);
+	/*travers the right subtree recursively*/
 	binary_tree_preorder(tree->right, func);
 }
